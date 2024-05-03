@@ -1,0 +1,46 @@
+Comandos De Git
+
+git init: Inicializa un nuevo repositorio Git en el directorio actual.
+
+git clone [URL]: Clona un repositorio Git existente en tu directorio local.
+
+git add [archivo]: Agrega un archivo o cambios específicos al área de preparación (staging).
+
+git add .: Agrega todos los archivos modificados y/o nuevos al área de preparación.
+
+git commit -m "[mensaje]": Crea un nuevo commit con los archivos en el área de preparación y el mensaje especificado.
+
+git status: Muestra el estado actual del repositorio, incluyendo los archivos modificados, los archivos en el área de preparación y los que no están bajo seguimiento.
+
+git diff: Muestra las diferencias entre los archivos en el directorio de trabajo y el área de preparación.
+
+git diff --staged: Muestra las diferencias entre los archivos en el área de preparación y el último commit.
+
+git log: Muestra el historial de commits del repositorio.
+
+git branch: Lista todas las ramas en el repositorio.
+
+git branch [nombre_rama]: Crea una nueva rama con el nombre especificado.
+
+git checkout [nombre_rama]: Cambia a la rama especificada.
+
+git merge [nombre_rama]: Fusiona la rama especificada en la rama actual.
+
+git pull: Obtiene cambios del repositorio remoto y los fusiona en la rama actual.
+
+git push: Envía los commits locales al repositorio remoto.
+
+git remote -v: Lista los repositorios remotos vinculados y sus URL.
+
+git remote add [nombre_remoto] [URL]: Agrega un nuevo repositorio remoto con el nombre especificado y la URL proporcionada.
+
+git remote remove [nombre_remoto]: Elimina un repositorio remoto del repositorio local.
+
+git reset --soft HEAD~1: para deshacer el último commit y mover los cambios a tu área de preparación.
+
+git revert : ara crear un nuevo commit que deshace los cambios realizados en un commit anterior, permitiéndote corregir errores sin alterar el historial de tu proyecto.
+
+ git reset --hard: para deshacer todos los cambios realizados en tus archivos y volver al estado anterior, como si comenzaras desde cero. 
+
+git restore . : nos permite restaurar archivos a su estado previo sin afectar otros archivos o commits
+
